@@ -30,7 +30,8 @@ export class PieChartComponent implements OnInit {
       ['Lacazette', 19],
       ['Iwobi', 6],
       ['Mkhitaryan', 6],
-      ['Ramsey', 6]
+      ['Ramsey', 6],
+      ['Others',38]
     ]);
 
     let options = {'title':'Arsenal Top Scorers'};

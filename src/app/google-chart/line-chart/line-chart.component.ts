@@ -22,11 +22,11 @@ export class LineChartComponent implements OnInit {
 
   private drawChart(){
     let data = this.gLib.visualization.arrayToDataTable([
-      ['Year', 'Selling Fees', 'Buying Fees'],
-      ['2016',  2,      26],
-      ['2017',  10,       113],
-      ['2018',  156,      152],
-      ['2019',  8,      80]
+      ['Year', 'Selling Fees(in millions)', 'Buying Fees(in millions)'],
+      ['2015',  2,      26],
+      ['2016',  10,       113],
+      ['2017',  156,      152],
+      ['2018',  8,      80]
 
       
       
